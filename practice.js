@@ -99,7 +99,7 @@ function nameCheck(name) {
  {return 'What is up Steven?'}
  else if (name === 'Bryan')
   {return 'Hey Bryan!'}
-  else {return 'Cool, name ' + name}
+  else {return 'Cool name, ' + name}
 }
 //////////////////PROBLEM 12////////////////////
 
