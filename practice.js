@@ -94,7 +94,13 @@ devMountainClassPet = dog.name
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
-
+function nameCheck(name) {
+  if (name === 'Steven')
+ {return 'What is up Steven?'}
+ else if (name === 'Bryan')
+  {return 'Hey Bryan!'}
+  else {return 'Cool, name ' + name}
+}
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called add that takes in two parameters
